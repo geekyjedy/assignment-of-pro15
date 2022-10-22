@@ -401,7 +401,7 @@ footer {
     }
 }
 
-@media (min-width:320px) and (max-width:425px) {
+@media (min-width:321px) and (max-width:425px) {
     .hero-img {
         height: 15rem;
         width: auto;
@@ -483,7 +483,7 @@ footer {
     }
 }
 
-@media (min-width:425px) and (max-width:1024px) {
+@media (min-width:426px) and (max-width:1024px) {
     .hero-img {
         height: 15rem;
         width: auto;
