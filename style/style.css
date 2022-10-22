@@ -1,0 +1,583 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;600;700&family=Poppins:wght@200;400;500&display=swap');
+:root {
+    --bgc: #2d2d2d;
+    --red: #f03333;
+}
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    background-color: #171717;
+    padding: 0px 40px;
+}
+
+.logo {
+    height: auto;
+    width: 5rem;
+}
+
+nav {
+    display: flex;
+    color: #ffffff;
+    gap: 10px;
+    align-items: center;
+    margin: 40px 0px;
+}
+
+.nav-div {
+    display: flex;
+    justify-content: space-between;
+    margin-left: 18rem;
+    gap: 3rem;
+}
+
+.nav-item {
+    font-family: "Poppins";
+    font-weight: 500;
+    font-size: x-small;
+    flex-grow: 2;
+}
+
+.hero-img {
+    height: auto;
+    width: 22rem;
+}
+
+.hero-section {
+    display: flex;
+    align-items: center;
+    color: #ffffff;
+    justify-content: center;
+}
+
+.hero-discription {
+    font-family: "Montserrat";
+    font-size: smaller;
+    font-weight: 300;
+    gap: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.hero-name {
+    font-family: "Montserrat";
+    color: var(--red);
+    font-weight: 700;
+    font-size: larger;
+}
+
+.hero-profession {
+    font-size: 3rem;
+    font-family: "Montserrat";
+    font-weight: 700;
+}
+
+.about-me {
+    background: var(--red);
+    color: #ffffff;
+    padding: 10px 25px;
+    font-family: "Poppins";
+    font-weight: 500;
+    border: 0px;
+}
+
+.section2 {
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+    margin-top: 3rem;
+}
+
+.service {
+    padding: 40px;
+    color: #ffffff;
+    background: var(--bgc);
+    display: flex;
+    flex-direction: column;
+}
+
+.service-img {
+    height: auto;
+    width: 35px;
+}
+
+.service>h3 {
+    font-family: "Montserrat";
+    font-weight: 700;
+    font-size: small;
+}
+
+.service>p {
+    font-family: "Montserrat";
+    font-weight: 500;
+    font-size: x-small;
+}
+
+.middle {
+    background: var(--red);
+}
+
+.know-more {
+    color: var(--red);
+}
+
+.know-more-middle,
+.know-more {
+    margin-top: 30px;
+}
+
+.section3 {
+    display: flex;
+    color: #ffffff;
+    justify-content: center;
+    gap: 7rem;
+    align-items: center;
+    text-align: center;
+    margin-top: 40px;
+}
+
+.grid-part {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    grid-column-gap: 10px;
+    grid-row-gap: 10px;
+}
+
+.clients>p {
+    font-family: 'Montserrat';
+    font-size: smaller;
+}
+
+.clients {
+    background-color: var(--bgc);
+    padding: 15px 30px;
+}
+
+.digit {
+    color: var(--red);
+    font-family: 'Montserrat';
+    font-weight: 800;
+    font-size: xx-large;
+}
+
+.exp12>p {
+    font-family: 'Montserrat';
+}
+
+.no12 {
+    font-size: 4rem;
+}
+
+.featured-project-div {
+    display: flex;
+    color: #ffffff;
+    justify-content: center;
+    gap: 7rem;
+    align-items: center;
+    margin-top: 6rem;
+}
+
+.project {
+    background-color: var(--bgc);
+    padding: 1rem 1rem;
+}
+
+.featured-projects p {
+    font-family: 'Montserrat';
+    font-size: smaller;
+}
+
+.featured-projects span {
+    font-family: 'Poppins';
+    font-weight: 800;
+    font-size: medium;
+}
+
+.view-btn {
+    background: var(--red);
+    color: #ffffff;
+    padding: 5px 20px;
+    font-family: "Poppins";
+    font-weight: 500;
+    border: 0px;
+}
+
+.project-div {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    grid-column-gap: 1rem;
+    grid-row-gap: 1rem;
+    color: #ffffff;
+    padding: 2rem 11rem;
+}
+
+.project-name {
+    font-family: 'Poppins';
+    font-weight: 700;
+}
+
+.project-name span {
+    color: var(--red);
+    font-size: xx-small;
+    font-weight: 500;
+}
+
+.project-img {
+    height: 200px;
+    width: auto;
+}
+
+.section5 {
+    display: flex;
+    justify-content: center;
+    gap: 7rem;
+    align-items: center;
+    margin-top: 3rem;
+    color: #ffffff;
+    background-color: var(--bgc);
+    margin: 1rem 11rem;
+    padding: 2rem 4rem;
+}
+
+.text>h1 {
+    font-family: 'Poppins';
+}
+
+.text>p {
+    font-family: 'Poppins';
+    font-size: smaller;
+    font-weight: 200;
+}
+
+.contact-btn {
+    background: var(--red);
+    color: #ffffff;
+    padding: 5px 20px;
+    font-family: "Poppins";
+    font-size: x-small;
+    font-weight: 500;
+    border: 0px;
+}
+
+.footer-ul {
+    display: flex;
+    color: #ffffff;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    font-family: 'Poppins';
+    font-weight: 500;
+    font-size: smaller;
+    margin: 2rem;
+}
+
+footer {
+    display: flex;
+    background-color: var(--bgc);
+    align-items: center;
+    padding: 2rem 2rem;
+    gap: 21rem;
+}
+
+.footer-logo {
+    height: 1.5rem;
+    width: auto;
+}
+
+.icons {
+    display: flex;
+    flex-grow: 2;
+    gap: 2rem;
+}
+
+.icon-itself {
+    height: 1rem;
+    width: auto;
+    filter: invert(100%);
+}
+
+@media (max-width:320px) {
+    .hero-img {
+        height: 100px;
+        width: auto;
+    }
+    nav {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .nav-div {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin: 0%;
+    }
+    .hero-section {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        align-self: center;
+    }
+    .hero-profession {
+        font-size: small;
+    }
+    .hero-discription {
+        align-items: center;
+    }
+    .section2 {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .section3 {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .grid-part {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+    }
+    .view-btn {
+        font-size: smaller;
+        padding: 2px 10px;
+    }
+    .about-me {
+        font-size: smaller;
+    }
+    .section4 {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .featured-project-div {
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 1rem;
+        justify-content: space-around;
+    }
+    .project-div {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        margin: 0%;
+        padding: 0px;
+    }
+    .project-img {
+        height: 4rem;
+        width: auto;
+    }
+    .project p {
+        font-size: small;
+    }
+    .section5 {
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+        margin: 0%;
+        margin-top: 1rem;
+    }
+    .text>h1 {
+        font-size: small;
+    }
+    .footer-ul {
+        display: flex;
+        flex-direction: column;
+        margin: 0%;
+        margin: 1rem 0rem;
+    }
+    footer {
+        display: flex;
+        flex-direction: column;
+    }
+    .icons {
+        display: flex;
+        flex-direction: column;
+    }
+}
+
+@media (min-width:320px) and (max-width:425px) {
+    .hero-img {
+        height: 15rem;
+        width: auto;
+    }
+    nav {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .nav-div {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin: 0%;
+    }
+    .hero-discription {
+        align-items: center;
+    }
+    .hero-section {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        align-self: center;
+    }
+    .hero-profession {
+        font-size: 2rem;
+    }
+    .section2 {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .section3 {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .grid-part {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+    }
+    .section4 {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .featured-project-div {
+        display: flex;
+        flex-direction: column;
+    }
+    .project-div {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        margin: 0%;
+        padding: 0px;
+    }
+    .project-img {
+        height: 5rem;
+        width: auto;
+    }
+    .section5 {
+        display: flex;
+        flex-direction: column;
+        margin: 0%;
+        margin-top: 1rem;
+    }
+    .footer-ul {
+        display: flex;
+        flex-direction: column;
+        margin: 0%;
+    }
+    footer {
+        display: flex;
+        flex-direction: column;
+    }
+    .icons {
+        display: flex;
+        flex-direction: column;
+    }
+}
+
+@media (min-width:425px) and (max-width:1024px) {
+    .hero-img {
+        height: 15rem;
+        width: auto;
+    }
+    nav {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .nav-div {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin: 0%;
+    }
+    .hero-section {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        align-self: center;
+    }
+    .hero-profession {
+        font-size: 2rem;
+    }
+    .hero-discription {
+        align-items: center;
+    }
+    .section2 {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .section3 {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .grid-part {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+    }
+    .view-btn {
+        font-size: smaller;
+        padding: 2px 10px;
+    }
+    .about-me {
+        font-size: smaller;
+    }
+    .section4 {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .featured-project-div {
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 1rem;
+        justify-content: space-around;
+    }
+    .project-div {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        margin: 0%;
+        padding: 0px;
+    }
+    .project-img {
+        height: 4rem;
+        width: auto;
+    }
+    .project p {
+        font-size: small;
+    }
+    .section5 {
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+        margin: 0%;
+        margin-top: 1rem;
+    }
+    .text>h1 {
+        font-size: small;
+    }
+    .footer-ul {
+        display: flex;
+        flex-direction: column;
+        margin: 0%;
+        margin: 1rem 0rem;
+    }
+    footer {
+        display: flex;
+        flex-direction: column;
+    }
+    .icons {
+        display: flex;
+        flex-direction: column;
+    }
+}
